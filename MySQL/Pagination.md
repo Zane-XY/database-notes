@@ -11,7 +11,7 @@ select * from T where ... order by ... limit m,n
 - user probably doesn't care about which page he's viewing
 
 ##### pagination without offset
-- we want out queries to hit our indexes as much as possible
-- using where and limit n
+- we want our queries to hit our indexes as much as possible
+- using `where` and `imit n`
 - store view range in client side
 
